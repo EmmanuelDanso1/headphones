@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: Source Sans Pro;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    font-family: 'SourceSansPro-Black';
+    margin-top: 10px;
+    padding: 30px;
+    color: azure;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+header{
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    
+}
+ .headphone-align {
+   justify-content: center; 
+   text-align: center;
+   margin-top: 150px;
+}
+.call-to-action {
+    border-radius: 9px;
+    background-color: rgb(220, 92, 92);
+    color: white;
+    padding: 6px;
+    margin-top: 20px;
+}
+.headphone-align > h1 ,h5,h4  {
+    margin-top: 20px;
+    color: white;
+}
+h4 {
+    display: block;
+    max-width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+
+}
+.what-we-do{
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we-do > h4 {
+    color: black;
+}
+/* .w-6 {
+    width:50px;
+}
+*/
+.small-screen {
+    display: none;
+}
+
+@media (max-width:780px) {
+    .small-screen {
+        display: block;
+    }
+    .nav-bar ul {
+        display: none;
+    }
+} 
