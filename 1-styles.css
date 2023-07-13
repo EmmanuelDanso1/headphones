@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: auto 0;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    font-family: 'SourceSansPro-Black';
+    margin-top: 10px;
+    padding: 30px;
+    color: azure;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+header{
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20px;
+    
+}
+ .headphone-align {
+   justify-content: center; 
+   text-align: center;
+   margin-top: 150px;
+}
+.call-to-action {
+    border-radius: 9px;
+    background-color: rgb(220, 92, 92);
+    color: white;
+    padding: 6px;
+    margin-top: 20px;
+}
+.headphone-align > h1 ,h5,h4  {
+    margin-top: 20px;
+    color: white;
+}
+h4 {
+    display: block;
+    max-width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+
+}
+.what-we-do{
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we-do > h4 {
+    color: black;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3px;
+
+}
+.card img {
+    width: 50%;
+    height: 80px;
+}
+.card > h5  p{
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+.lorem {
+    color: black;
+}
+@media (max-width:780px) {
+    .header{
+        display: block;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    .card {
+        flex-direction: column;
+        width: 100%;
+        padding-right: 10px;
+        
+    }
+    
+
+}
+
