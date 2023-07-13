@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    font-family: 'SourceSansPro-Black';
+    margin-top: 10px;
+    padding: 30px;
+    color: azure;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+ .headphone-align {
+   justify-content: center; 
+   text-align: center;
+   margin-top: 150px;
+}
+.call-to-action {
+    border-radius: 9px;
+    background:#a93436;
+    color: white;
+    padding: 6px;
+    margin-top: 20px;
+}
+.headphone-align > h1 ,h5,h4  {
+    margin-top: 20px;
+    color: white;
+}
+h4 {
+    display: block;
+    max-width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+
+}
+.what-we-do{
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we-do > h4 {
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3px;
+
+}
+.card img {
+    width: 50%;
+    height: 80px;
+}
+.card > h5  p{
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+.lorem {
+    color: black;
+}
+.our-results > h4{
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 10px;
+    text-align: center;
+}
+.our-results > h5 {
+    display: block;
+    max-width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.results{
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 3px;
+}
+.container img {
+    width: 70%;
+    height: 80px;
+    justify-content: space-around;
+}
+.container > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact {
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    background: #fff;
+}
+.contact h2 {
+    color: #333;
+    font-size: 30px;
+}
+.contact .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px
+}
+.inputBox input {
+    width: 100%;
+    padding: 5px 0;
+    margin: 7px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none; 
+}
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666
+}
+.inputBox input:focus~span,.inputBox input:valid~span {
+    color:#333;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.inputBox textarea:focus~span,.inputBox textarea:valid~span {
+    color:#333;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.inputBox input[type="submit"] {
+    width: 100px;
+    background: #a93436;
+    text-align: center;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
